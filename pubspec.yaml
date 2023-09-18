@@ -1,0 +1,57 @@
+name: hiking_platform
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies:
+#framework version
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  #map provider
+  flutter_map: ^1.1.1
+  #location to be analysis
+  geolocator : ^9.0.2
+  #provide location information 
+  geocoding: ^2.1.0
+  #enable access mobile picker the picture
+  image_picker: ^0.8.4+3
+  #retrieve the image path
+  path_provider: ^2.0.7
+  #generate the picture 
+  flutter_image: ^4.1.6
+  #test the connection is online or not
+  connectivity: ^3.0.6
+  #allows activities and applications to keep preferences
+  shared_preferences: ^2.0.7
+ 
+#Posgres Database
+  postgres: ^2.4.3
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  #mail sender
+  mailer: ^6.0.1
+  #backend service executor
+  flutter_background_service: ^3.0.1
+  isolate: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+#default image resorce to be use
+  assets:
+  - lib/Home/tab_home/image_src/mountainLogo.png
+
