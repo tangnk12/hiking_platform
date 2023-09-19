@@ -1,16 +1,24 @@
 # hiking_platform
 
-A new Flutter project.
+A flutter based app that use for hiking aciviy management.
 
-## Getting Started
+Features
+1. User Registration and Authentication
+Create your personal account securely.
+Log in with your credentials to access your hiking data.
+Reset password by using email verifying
 
-This project is a starting point for a Flutter application.
+2. Activity Tracking
+Record and track your hiking activities, including date, time, location, and duration.
+Attach photos and notes to your activities to create memorable logs.
+Automatically track your route and elevation gain using GPS.
 
-A few resources to get you started if this is your first Flutter project:
+3. Hiking Groups
+Join or create hiking groups to connect with fellow hikers.
+Plan and schedule group hikes easily.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4. Personal Dashboard
+Consis user account profile ic number, user name and etc
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Demo link
+https://www.youtube.com/watch?v=9U-iUOWAUh4
